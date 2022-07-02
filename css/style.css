@@ -1,0 +1,7 @@
+.tabla1 {
+    border-collapse: separate;
+    background-color: aqua;
+    border-color: black;
+    border-spacing: 10px;
+    border-radius: 10px;
+}
