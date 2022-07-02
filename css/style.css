@@ -1,5 +1,5 @@
 .tabla1 {
-    border-collapse: separate;
+    border-collapse: collapse #000;
     background-color: aqua;
     border-color: black;
     border-spacing: 10px;
