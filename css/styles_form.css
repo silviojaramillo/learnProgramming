@@ -2,30 +2,47 @@
     --background-color: rgb(2, 50, 138);
     --background-color-form: rgb(219, 219, 219);
 }
+html{
+    height: 100%;
+}
 body{
     background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .register-container{
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
 }
 
 .register-form{
+    max-width: 400px;
     color:black;
-    text-align: center;
-    position: relative;
     width: 90%;
 }
 
 .form{
-    max-width: 250px;
+    max-width: 350px;
     background-color: rgba(240, 248, 255, 0.568);
     display: flex;
     flex-direction: column;
     padding: 15px;
     border-radius: 8px;
     margin: 0 auto;
+    text-align: center;
+    max-height: 700px;
+}
+.register-container .register-form .form h5{
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
 }
 .bx{
     max-height: 70px;
@@ -37,12 +54,14 @@ body{
     padding: 5px;
 }
 .form-label{
+    margin-left: 10px;
     margin-top: 5px;
     color: black;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     text-align: start;
     max-width: 100%;
+    font-family: sans-serif;
 }
 .first{
     margin-top: 18px;
@@ -50,4 +69,38 @@ body{
 
 .text-center{
     text-align: center;
+}
+
+input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 0px 15px 0px 10px;
+    padding: 10px;
+}
+
+input::placeholder{
+    color: white;
+    font-weight: 600;
+}
+
+.register-container .register-form .form input[type="submit"]{
+    margin: 25px auto 10px auto;
+    padding: 8px;
+    background-color: rgb(132, 0, 255);
+    border: none;
+    border-radius: 5px;
+    max-width: 95px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.register-container .register-form .form input[type="submit"]:hover{
+    border: 2px solid rgb(255, 255, 255);
+    margin: 23px auto 8px auto;
+    font-weight: bold;
 }
