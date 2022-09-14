@@ -1,0 +1,53 @@
+:root{
+    --background-color: rgb(2, 50, 138);
+    --background-color-form: rgb(219, 219, 219);
+}
+body{
+    background-color: var(--background-color);
+}
+
+.register-container{
+    width: 100%;
+    height: 100%;
+}
+
+.register-form{
+    color:black;
+    text-align: center;
+    position: relative;
+    width: 90%;
+}
+
+.form{
+    max-width: 250px;
+    background-color: rgba(240, 248, 255, 0.568);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.bx{
+    max-height: 70px;
+    max-width: 70px;
+    font-size: 70px;
+    color:  black;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+.form-label{
+    margin-top: 5px;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: start;
+    max-width: 100%;
+}
+.first{
+    margin-top: 18px;
+}
+
+.text-center{
+    text-align: center;
+}
