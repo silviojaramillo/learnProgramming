@@ -1,5 +1,5 @@
 :root{
-    --background-color: rgb(2, 50, 138);
+    --background-color: rgb(0, 89, 255);
     --background-color-form: rgb(219, 219, 219);
 }
 html{
@@ -27,7 +27,7 @@ body{
 
 .form{
     max-width: 350px;
-    background-color: rgba(240, 248, 255, 0.568);
+    background-color: rgba(240, 248, 255, 0.397);
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -57,7 +57,7 @@ body{
     margin-left: 10px;
     margin-top: 5px;
     color: black;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     text-align: start;
     max-width: 100%;
@@ -80,9 +80,15 @@ input{
     padding: 10px;
 }
 
+input:focus{
+    border-bottom: 1px solid rgb(132, 0, 255);
+    
+    outline: 0 none;
+}
 input::placeholder{
     color: white;
     font-weight: 600;
+    border: none;
 }
 
 .register-container .register-form .form input[type="submit"]{
