@@ -106,7 +106,7 @@ input::placeholder{
 }
 
 .register-container .register-form .form input[type="submit"]:hover{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(230, 199, 26);
     margin: 23px auto 8px auto;
     font-weight: bold;
 }
